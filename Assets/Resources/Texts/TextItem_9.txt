@@ -1,0 +1,1 @@
+{"id":9,"textRu":"\"На войне все просто, но самое простое в высшей степени трудно.\" - Карл фон Клаузевиц","textEn":"\"In war, everything is simple, but the simplest is extremely difficult.\" - Karl von Clausewitz"}

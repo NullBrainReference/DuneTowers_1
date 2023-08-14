@@ -1,0 +1,1 @@
+{"id":10,"textRu":"\"Самый быстрый способ окончить войну — проиграть ее.\" - Джордж Оруэлл","textEn":"\"The fastest way to end a war is to lose it.\" - George Orwell"}

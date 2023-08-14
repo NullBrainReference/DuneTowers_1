@@ -1,0 +1,1 @@
+{"key":1,"title":"Tactic","titleRu":"Тактик","description":"Destroy 500 units","descriptionRu":"Уничтожить 500 юнитов","goal":500.0,"progress":0.0,"hasProgress":true,"achieved":false,"achievementType":1,"coinType":0,"rewardValue":15000,"rewardTaken":false}

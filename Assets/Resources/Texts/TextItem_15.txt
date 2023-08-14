@@ -1,0 +1,1 @@
+{"id":15,"textRu":"\"Стратегические просчеты невозможно компенсировать тактическими успехами.\" - Карл фон Клаузевиц","textEn":"\"Strategic miscalculations cannot be compensated by tactical successes.\" - Karl von Clausewitz"}

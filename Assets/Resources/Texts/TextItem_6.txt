@@ -1,0 +1,1 @@
+{"id":6,"textRu":"Если победа дается слишком тяжело, имеет смысл улучшить юниты","textEn":"If the victory is too hard, it makes sense to upgrade the units"}

@@ -1,0 +1,1 @@
+{"key":7,"title":"The wall","titleRu":"Цитадель","description":"Survive in defense mode for 10 minutes","descriptionRu":"Продержитесь 10 минут в режиме \"Оборона\"","goal":600.0,"progress":0.0,"hasProgress":true,"achieved":false,"achievementType":8,"coinType":2,"rewardValue":100,"rewardTaken":false}

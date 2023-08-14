@@ -1,0 +1,1 @@
+{"id":2,"textRu":"\"Стратегия без тактики — это самый медленный путь к победе. Тактика без стратегии — это просто суета перед поражением.\" - Сунь-цзы","textEn":"\"Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat.\" - Sun-tzu"}

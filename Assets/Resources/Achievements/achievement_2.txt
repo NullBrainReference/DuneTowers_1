@@ -1,0 +1,1 @@
+{"key":2,"title":"Top Gun","titleRu":"Калибр","description":"Reach gun level 15","descriptionRu":"Достичь 15-ого уровня орудия","goal":15.0,"progress":0.0,"hasProgress":true,"achieved":false,"achievementType":6,"coinType":1,"rewardValue":30,"rewardTaken":false}

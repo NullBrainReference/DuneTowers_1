@@ -1,0 +1,4 @@
+repository "DuneTowers@pavel_dr@cloud"
+  path "/"
+    br "/main"
+    co "/main"

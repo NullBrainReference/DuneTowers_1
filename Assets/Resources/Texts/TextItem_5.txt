@@ -1,0 +1,1 @@
+{"id":5,"textRu":"\"Война – слишком серьёзное дело, чтобы доверять её военным.\" - Шарль Морис Талейран","textEn":"\"War is much too serious a matter to be entrusted to the military.\" - Georges Clemenceau"}

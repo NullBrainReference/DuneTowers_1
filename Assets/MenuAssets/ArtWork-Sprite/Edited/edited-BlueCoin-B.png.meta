@@ -1,0 +1,1512 @@
+fileFormatVersion: 2
+guid: 61a054c816058154b972f995f66dfb43
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3750
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39b1b75292663d4daf1fbaa3a46bf1f
+      internalID: -1184019303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_1
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 3750
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259da7c53ffa1534babeb69508661327
+      internalID: -2037797418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_2
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 3750
+        width: 447
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9699830f35f8746ae15d340a994101
+      internalID: -1346342020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_3
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3750
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259915e5eef1e32448cc6aace8b8b329
+      internalID: -2039329730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_4
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 3750
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a927c83d7593c4d898d9c60a5ca7f0
+      internalID: 1520777565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_5
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 3750
+        width: 446
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d256ca57b99a0d143b7d8ab0691d078e
+      internalID: 527101907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_6
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 3750
+        width: 448
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 878fa702736de9944b7e7e3f870645d6
+      internalID: -1482685037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_7
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 3750
+        width: 443
+        height: 443
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e3e0127151204e4bbda650e547ca014
+      internalID: -1369143901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3228
+        width: 443
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0170ec65157c5bd4ba12a33871e9deca
+      internalID: 641594489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_9
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 3228
+        width: 446
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba6db65868159714bb66b2ff5917f220
+      internalID: -1160464829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_10
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 3228
+        width: 447
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81021137efa8e694e9e34a1a3d2e7002
+      internalID: 264316291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_11
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 3228
+        width: 446
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 560d8a209ef9dbb4b9f6883c9ea962c9
+      internalID: 967425790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_12
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 3228
+        width: 446
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3997da1e959feac4981a4572c42faefa
+      internalID: 387379231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_13
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 3213
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34dbee19f6b55604d93684a440b145fb
+      internalID: -736983947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_14
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 3228
+        width: 447
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfb6b350645938b47a1a7de5ff8af79f
+      internalID: 28475934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_15
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 3227
+        width: 443
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a115dfab3c28c654a8669fbaecdc3349
+      internalID: 730542629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2650
+        width: 443
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd2306956d30d4498dca5c6702e4127
+      internalID: 1379071520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_17
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 2650
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab7a8513d48f0e043acc73d23db94604
+      internalID: -1143343357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_18
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 2650
+        width: 447
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8796c0d2c17c61446b829d9b4fd9f7e0
+      internalID: 720767598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_19
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 2650
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bbef9debf46f7a4f8ab898acea491be
+      internalID: 210295611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_20
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 2650
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d94c8357e322bc4f8a3029384de3632
+      internalID: -260996417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_21
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 2677
+        width: 446
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e680e2d4b27bf6b4ebfe2115ab87d432
+      internalID: -1520423103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_22
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 2650
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81210dd77c2fd04fad31ad6affc79fb
+      internalID: -45522827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_23
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 2650
+        width: 443
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feedbecbed4add64db806f25ab023fec
+      internalID: -813966162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2126
+        width: 443
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40dbe59c6e01a2b45b2835a8af6991e8
+      internalID: 852763881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_25
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 2126
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56f1faedc7d83e4ab7e01be2782e0e2
+      internalID: -1461667788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_26
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 2126
+        width: 447
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a41bdb8b6a647f49b0aff25aac08a20
+      internalID: -1173144491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_27
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 2126
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d20ecb9d6268fb43b4a100c2e4dd37c
+      internalID: -672420042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_28
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 2126
+        width: 446
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ab11dce20c590438a58b26807085db
+      internalID: -485343744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_29
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 2141
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a412726c431697428bbaeb15749a577
+      internalID: 1949241607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_30
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 2126
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9fc59a44c3fb874a9ac0eed3f922e20
+      internalID: -1820548914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_31
+      rect:
+        serializedVersion: 2
+        x: 3743
+        y: 2126
+        width: 443
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f9a7453eab8a7439db5fc1ee4ce3cc
+      internalID: 580115342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1586
+        width: 445
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a253adaafbc7dd46a665de71f45cb93
+      internalID: 1173759629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_33
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 1586
+        width: 448
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5649a58e3fdb6a4b89938d05a1e6274
+      internalID: 1288782802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_34
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 1586
+        width: 446
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74d6e76336c77d2428c4dbbee31cfa44
+      internalID: -279122196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_35
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1586
+        width: 450
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe955f9b2d2ada4ba0cedefe8642059
+      internalID: 1422665600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_36
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1586
+        width: 448
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034a1744d7ef9d944886f037838be999
+      internalID: 2028028017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_37
+      rect:
+        serializedVersion: 2
+        x: 2670
+        y: 1606
+        width: 446
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b136a98ef67fb344d96198cb233151d9
+      internalID: -1110945477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_38
+      rect:
+        serializedVersion: 2
+        x: 3207
+        y: 1586
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9e09242c0a7f4b4e86ff034fd448b68
+      internalID: 829399590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_39
+      rect:
+        serializedVersion: 2
+        x: 3741
+        y: 1586
+        width: 445
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edb519bcebe9ce34eae77cb87a55449b
+      internalID: 124245785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1062
+        width: 445
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e42a9ddcabf3541a418d8f1a5f5994
+      internalID: 2146715255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_41
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 1047
+        width: 475
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d100d57c907db4290be24a69c37926
+      internalID: 265505430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_42
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 1047
+        width: 475
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca881be8cd1bbda4599b057243b67754
+      internalID: 1281352773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_43
+      rect:
+        serializedVersion: 2
+        x: 1581
+        y: 1047
+        width: 477
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b72780679dd61b947bf5325c73106351
+      internalID: 481447026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_44
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1047
+        width: 474
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202f4335aa49af94d9c7ad52238fef99
+      internalID: -134019525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_45
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 1055
+        width: 475
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdb359a5c8fedd649917c6527738069f
+      internalID: -406130798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_46
+      rect:
+        serializedVersion: 2
+        x: 3180
+        y: 1047
+        width: 477
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1983d93aebf8794cb370ec4610f6c56
+      internalID: -973559105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_47
+      rect:
+        serializedVersion: 2
+        x: 3714
+        y: 1047
+        width: 472
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fb5da7ec3640b43b46e9944dd0f370
+      internalID: 341214656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 505
+        width: 472
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2525bdd0c6d26b94c89430c6b6b7dcbd
+      internalID: -590503055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_49
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 505
+        width: 477
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04300487b158a5543878027fd23f4707
+      internalID: -2111852607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_50
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 505
+        width: 475
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf6dc599877fd64b916d55468b2e937
+      internalID: -223723070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_51
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 505
+        width: 477
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a1f9419d6da3124793af7571a2965e4
+      internalID: 1851415275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_52
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 505
+        width: 477
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340fb4750a2d1834c87d4d8998d73c45
+      internalID: 414728098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_53
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 519
+        width: 475
+        height: 477
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b07a907953d56444b1c0bd792d81c31
+      internalID: 1830710092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_54
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 505
+        width: 477
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d46555a43b9ff44896a59b535ac2891
+      internalID: 1200987446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_55
+      rect:
+        serializedVersion: 2
+        x: 3393
+        y: 0
+        width: 793
+        height: 980
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b6f6e0db451ad48bc6c7f13470a830
+      internalID: -1914228602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 472
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de37457894a2cf84986f70c88ec8cb61
+      internalID: 156247261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_57
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 0
+        width: 475
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bc24cfd6fc3cb54ba818134dacd7e94
+      internalID: -657691360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_58
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 0
+        width: 475
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba56d27f57d5d2145b41a84e78b4d7a9
+      internalID: -1925145092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_59
+      rect:
+        serializedVersion: 2
+        x: 1592
+        y: 0
+        width: 476
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1135430c2006724e885d99205959511
+      internalID: -2083722600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_60
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 0
+        width: 476
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3bf4c11ea9a2dd4aa5bc55d4828c98b
+      internalID: -2087696930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-BlueCoin-B_61
+      rect:
+        serializedVersion: 2
+        x: 2656
+        y: 0
+        width: 475
+        height: 474
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b5a33401be3d44d8ecd2e6a0812408
+      internalID: -611308201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      edited-BlueCoin-B_52: 414728098
+      edited-BlueCoin-B_30: -1820548914
+      edited-BlueCoin-B_44: -134019525
+      edited-BlueCoin-B_50: -223723070
+      edited-BlueCoin-B_36: 2028028017
+      edited-BlueCoin-B_53: 1830710092
+      edited-BlueCoin-B_57: -657691360
+      edited-BlueCoin-B_3: -2039329730
+      edited-BlueCoin-B_42: 1281352773
+      edited-BlueCoin-B_10: 264316291
+      edited-BlueCoin-B_34: -279122196
+      edited-BlueCoin-B_54: 1200987446
+      edited-BlueCoin-B_59: -2083722600
+      edited-BlueCoin-B_19: 210295611
+      edited-BlueCoin-B_45: -406130798
+      edited-BlueCoin-B_41: 265505430
+      edited-BlueCoin-B_4: 1520777565
+      edited-BlueCoin-B_60: -2087696930
+      edited-BlueCoin-B_5: 527101907
+      edited-BlueCoin-B_27: -672420042
+      edited-BlueCoin-B_43: 481447026
+      edited-BlueCoin-B_8: 641594489
+      edited-BlueCoin-B_55: -1914228602
+      edited-BlueCoin-B_22: -45522827
+      edited-BlueCoin-B_31: 580115342
+      edited-BlueCoin-B_20: -260996417
+      edited-BlueCoin-B_11: 967425790
+      edited-BlueCoin-B_14: 28475934
+      edited-BlueCoin-B_17: -1143343357
+      edited-BlueCoin-B_37: -1110945477
+      edited-BlueCoin-B_33: 1288782802
+      edited-BlueCoin-B_12: 387379231
+      edited-BlueCoin-B_0: -1184019303
+      edited-BlueCoin-B_28: -485343744
+      edited-BlueCoin-B_29: 1949241607
+      edited-BlueCoin-B_1: -2037797418
+      edited-BlueCoin-B_21: -1520423103
+      edited-BlueCoin-B_16: 1379071520
+      edited-BlueCoin-B_23: -813966162
+      edited-BlueCoin-B_40: 2146715255
+      edited-BlueCoin-B_32: 1173759629
+      edited-BlueCoin-B_47: 341214656
+      edited-BlueCoin-B_6: -1482685037
+      edited-BlueCoin-B_56: 156247261
+      edited-BlueCoin-B_26: -1173144491
+      edited-BlueCoin-B_9: -1160464829
+      edited-BlueCoin-B_2: -1346342020
+      edited-BlueCoin-B_15: 730542629
+      edited-BlueCoin-B_35: 1422665600
+      edited-BlueCoin-B_48: -590503055
+      edited-BlueCoin-B_13: -736983947
+      edited-BlueCoin-B_46: -973559105
+      edited-BlueCoin-B_25: -1461667788
+      edited-BlueCoin-B_39: 124245785
+      edited-BlueCoin-B_18: 720767598
+      edited-BlueCoin-B_51: 1851415275
+      edited-BlueCoin-B_38: 829399590
+      edited-BlueCoin-B_7: -1369143901
+      edited-BlueCoin-B_49: -2111852607
+      edited-BlueCoin-B_24: 852763881
+      edited-BlueCoin-B_58: -1925145092
+      edited-BlueCoin-B_61: -611308201
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

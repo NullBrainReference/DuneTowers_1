@@ -1,0 +1,1 @@
+{"key":3,"title":"Smith","titleRu":"Кузнец","description":"Receive 300 units of armor","descriptionRu":"Получите 300 единиц брони","goal":300.0,"progress":0.0,"hasProgress":true,"achieved":false,"achievementType":5,"coinType":0,"rewardValue":15000,"rewardTaken":false}

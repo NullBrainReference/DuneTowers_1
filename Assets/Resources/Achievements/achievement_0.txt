@@ -1,0 +1,1 @@
+{"key":0,"title":"Blitzkrieg","titleRu":"Блицкриг","description":"Win in two minutes","descriptionRu":"Победите за две минуты","goal":120.0,"progress":0.0,"hasProgress":false,"achieved":false,"achievementType":10,"coinType":0,"rewardValue":10000,"rewardTaken":false}

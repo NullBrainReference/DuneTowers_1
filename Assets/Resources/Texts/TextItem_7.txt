@@ -1,0 +1,1 @@
+{"id":7,"textRu":"В профиле есть достижения","textEn":"There are achievements in the profile menu"}

@@ -1,0 +1,1 @@
+{"id":0,"textRu":"Скорость прохождения влияет на награду","textEn":"The speed of passing affects the reward"}

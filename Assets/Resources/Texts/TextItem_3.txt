@@ -1,0 +1,1 @@
+{"id":3,"textRu":"„Война любит победу и не любит продолжительности.“ - Сунь-цзы","textEn":"\"War loves victory and does not like duration\" - Sun-tzu"}

@@ -1,0 +1,1 @@
+{"id":8,"textRu":"Чтобы сделать вертолет, в бою выберете фабрику и переключите на вертолет на верхней панели","textEn":"To make a helicopter, select a factory in battle and switch to a helicopter on the top panel"}

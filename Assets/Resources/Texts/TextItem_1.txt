@@ -1,0 +1,1 @@
+{"id":1,"textRu":"\"Война — это по большей части каталог грубых ошибок.\" - Уинстон Черчилль","textEn":"\"War is mostly a catalogue of blunders.\" - Winston Churchill"}

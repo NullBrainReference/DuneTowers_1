@@ -1,0 +1,1 @@
+{"id":4,"textRu":"\"В войне не бывает второго приза для проигравших.\"","textEn":"\"In war, there is no second prize for losers.\""}

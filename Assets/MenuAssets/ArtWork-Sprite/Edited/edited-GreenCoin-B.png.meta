@@ -1,0 +1,1512 @@
+fileFormatVersion: 2
+guid: 84363d09ccb19c04daf4e13064e51c31
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_0
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 3750
+        width: 447
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83496857451379d4483515454e868c75
+      internalID: 1915920988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_1
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3750
+        width: 448
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604ee02dbee484648874b51e50af82fb
+      internalID: 1598498256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_2
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 3750
+        width: 446
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf76b564d61a55242b4afc1b84090ee5
+      internalID: -133921808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_3
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 3750
+        width: 445
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03f76b86dc348554c940db4c4e121c20
+      internalID: -949636955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_4
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 3750
+        width: 446
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62d513d0c8ce36c4282935615985947e
+      internalID: 950880909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_5
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 3750
+        width: 445
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd0d7d58d4f2ae45ab2c234423d39a5
+      internalID: -1589077923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_6
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 3750
+        width: 447
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9b203efd018ef44f9bfd34937808a30
+      internalID: -158171338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_7
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 3750
+        width: 448
+        height: 444
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2da19c1755dec4fa0cd362bf9586c7
+      internalID: 205738965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_8
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 3216
+        width: 447
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ce1b74b6a3c23469965957f0bbd5bc
+      internalID: -1627967079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_9
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 3216
+        width: 448
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fe795dfdeb1ae847b3fcbaa755f28be
+      internalID: 1996345569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_10
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 3216
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 175adf2ff19d22f4a91b04f16ab96215
+      internalID: -2082885114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_11
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 3216
+        width: 445
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4963087f11ba9b4abac466517c63090
+      internalID: 483212744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_12
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 3216
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4510103bd9e034345bc7aa5d2c82e40e
+      internalID: -787226702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_13
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 3216
+        width: 445
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c68062d90c276354b8d8b075049b4df6
+      internalID: 136052379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_14
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 3216
+        width: 447
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd6244123ac4dc408c933f8ae476d2c
+      internalID: -1815069881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_15
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 3216
+        width: 448
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8131565eb613dc419a18cce048b41cf
+      internalID: 1356923826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_16
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2682
+        width: 447
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c401d3e57dfc74d88a3189e34fa2d8
+      internalID: -972943442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_17
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2682
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88f15d45a19dc2439510fa1aebec284
+      internalID: -2113843692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_18
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 2682
+        width: 446
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b007e4073de0a3e4faa9a282520871c4
+      internalID: 1449207042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_19
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 2682
+        width: 445
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94f3511a908e3db428d7a608e21c86ee
+      internalID: 1963331864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_20
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 2682
+        width: 446
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44b287da77e72d4f806a6a71c525d2c
+      internalID: -848932775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_21
+      rect:
+        serializedVersion: 2
+        x: 2684
+        y: 2682
+        width: 445
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df08826d32c7f9944bedebe3486ac2c4
+      internalID: -753507254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_22
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 2682
+        width: 447
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d55842d5f47fad4d96bcee2b29b7252
+      internalID: -1994591449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_23
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 2682
+        width: 448
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f1297e8b47e8524c83d199c129d6c58
+      internalID: 989180984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_24
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 2148
+        width: 447
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09a4cb34d50ec149bd0c6277214a1fb
+      internalID: -1615911735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_25
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 2148
+        width: 448
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa665752794cb404995d5c0b3281319c
+      internalID: -1673768326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_26
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 2148
+        width: 447
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab48383c3b40f8b4e8ad2fdb2a4825f0
+      internalID: 1670717381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_27
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 2148
+        width: 447
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983a474ff635ce6488bbf28910998e10
+      internalID: -1745528813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_28
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 2146
+        width: 446
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87ccc6e446b1c3540b1940ae1577e7ad
+      internalID: 52881821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_29
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 2148
+        width: 449
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489cfa00326f21342be03ec0726e0c21
+      internalID: -1402451358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_30
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 2148
+        width: 447
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1792d7a237e780d44872e2b977c93c36
+      internalID: 1920894397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_31
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 2148
+        width: 448
+        height: 446
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055a1b882d90c38418e7ec52218a9a54
+      internalID: 1068886797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_32
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1615
+        width: 447
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649110298df28b240851b9c9dee4488c
+      internalID: 867930283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_33
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 1615
+        width: 448
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14334a14b6cdc2c4e9a558af1159ac8d
+      internalID: 388200225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_34
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 1613
+        width: 445
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a532c9def1dea1d42bee065fcca8a804
+      internalID: -1398719981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_35
+      rect:
+        serializedVersion: 2
+        x: 1619
+        y: 1615
+        width: 449
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e11fe2b68898544b0a070ec3388128
+      internalID: -41428275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_36
+      rect:
+        serializedVersion: 2
+        x: 2152
+        y: 1615
+        width: 446
+        height: 447
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0265cff940612f541bc154b7f7d52049
+      internalID: -1211700386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_37
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 1613
+        width: 447
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb47fb15d6b43f541b0e3c3113457999
+      internalID: 1425527453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_38
+      rect:
+        serializedVersion: 2
+        x: 3214
+        y: 1613
+        width: 447
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb3a2eac6ea1c0419659a01e50fa7b5
+      internalID: -265147631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_39
+      rect:
+        serializedVersion: 2
+        x: 3745
+        y: 1613
+        width: 448
+        height: 449
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d834c116aa9695a4795232d10f3634fc
+      internalID: 1518288000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1095
+        width: 473
+        height: 448
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c563df852ed72940ad307625c6b667d
+      internalID: -1507585267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_41
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 1067
+        width: 474
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dff46782b1a247f47b20c23ddb49d023
+      internalID: -496052172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_42
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 1067
+        width: 474
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85cc872dd9b7256458cf90258eee93d0
+      internalID: 299200188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_43
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 1067
+        width: 474
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0707993b88de343acc782c56cfa2b8
+      internalID: -1015314738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_44
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 1067
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e04d9479ed6e0947b2d2afe4dc035f6
+      internalID: -1383979789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_45
+      rect:
+        serializedVersion: 2
+        x: 2668
+        y: 1067
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bafae31aa25eb46a47429dc8a942f0
+      internalID: 136783143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_46
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 1067
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97066591b8e4f4a46a8263ea07b8dee1
+      internalID: 1084223296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_47
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 1067
+        width: 473
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200f38878b2ac124982175872f1409ba
+      internalID: -726067611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 473
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b5b926957e9ad44ea7e02e4555c9b18
+      internalID: 721004635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_49
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 531
+        width: 473
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9771f2aa91d868546ab729cc64046910
+      internalID: 564647524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_50
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 531
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dc1329a17879d4ba727041b6b02e97
+      internalID: -4575543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_51
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 0
+        width: 474
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68793342bbc1f6744b2007b8562adbc4
+      internalID: -241484572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_52
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 531
+        width: 475
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d92d109ae41daea4fa0a79d6de6b4f8f
+      internalID: -1169520519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_53
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 475
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d656a12710e1c419200a8b0df4492d
+      internalID: 481131910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_54
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 531
+        width: 474
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786f4e55a1970ba4f980ca701dadbf10
+      internalID: 1660976123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_55
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 0
+        width: 476
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a5467daba813441a21ded8ab038468
+      internalID: 1507176222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_56
+      rect:
+        serializedVersion: 2
+        x: 2132
+        y: 531
+        width: 474
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556775c62198a5544bb2af35ec5e42c1
+      internalID: -782400007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_57
+      rect:
+        serializedVersion: 2
+        x: 2138
+        y: 0
+        width: 476
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edfcc448cb05f4341a234feb9a7849a7
+      internalID: 931379934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_58
+      rect:
+        serializedVersion: 2
+        x: 2665
+        y: 531
+        width: 475
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6895c973a335fad47b84a4c55ca36ea5
+      internalID: 1007418098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_59
+      rect:
+        serializedVersion: 2
+        x: 2674
+        y: 0
+        width: 800
+        height: 473
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14379547a22c83d4dbccdddf98470eb3
+      internalID: -1299308985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_60
+      rect:
+        serializedVersion: 2
+        x: 3197
+        y: 531
+        width: 476
+        height: 476
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf69e8d81ed69d42817efe825438356
+      internalID: -973861290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: edited-GreenCoin-B_61
+      rect:
+        serializedVersion: 2
+        x: 3731
+        y: 0
+        width: 473
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c26e9cd516fc40a7c597206073aa4
+      internalID: -1849461276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      edited-GreenCoin-B_22: -1994591449
+      edited-GreenCoin-B_5: -1589077923
+      edited-GreenCoin-B_20: -848932775
+      edited-GreenCoin-B_21: -753507254
+      edited-GreenCoin-B_19: 1963331864
+      edited-GreenCoin-B_55: 1507176222
+      edited-GreenCoin-B_31: 1068886797
+      edited-GreenCoin-B_46: 1084223296
+      edited-GreenCoin-B_43: -1015314738
+      edited-GreenCoin-B_25: -1673768326
+      edited-GreenCoin-B_32: 867930283
+      edited-GreenCoin-B_7: 205738965
+      edited-GreenCoin-B_24: -1615911735
+      edited-GreenCoin-B_50: -4575543
+      edited-GreenCoin-B_36: -1211700386
+      edited-GreenCoin-B_52: -1169520519
+      edited-GreenCoin-B_16: -972943442
+      edited-GreenCoin-B_42: 299200188
+      edited-GreenCoin-B_37: 1425527453
+      edited-GreenCoin-B_40: -1507585267
+      edited-GreenCoin-B_58: 1007418098
+      edited-GreenCoin-B_56: -782400007
+      edited-GreenCoin-B_48: 721004635
+      edited-GreenCoin-B_12: -787226702
+      edited-GreenCoin-B_59: -1299308985
+      edited-GreenCoin-B_17: -2113843692
+      edited-GreenCoin-B_60: -973861290
+      edited-GreenCoin-B_51: -241484572
+      edited-GreenCoin-B_53: 481131910
+      edited-GreenCoin-B_41: -496052172
+      edited-GreenCoin-B_11: 483212744
+      edited-GreenCoin-B_10: -2082885114
+      edited-GreenCoin-B_29: -1402451358
+      edited-GreenCoin-B_61: -1849461276
+      edited-GreenCoin-B_13: 136052379
+      edited-GreenCoin-B_49: 564647524
+      edited-GreenCoin-B_30: 1920894397
+      edited-GreenCoin-B_3: -949636955
+      edited-GreenCoin-B_14: -1815069881
+      edited-GreenCoin-B_35: -41428275
+      edited-GreenCoin-B_39: 1518288000
+      edited-GreenCoin-B_1: 1598498256
+      edited-GreenCoin-B_44: -1383979789
+      edited-GreenCoin-B_4: 950880909
+      edited-GreenCoin-B_45: 136783143
+      edited-GreenCoin-B_27: -1745528813
+      edited-GreenCoin-B_54: 1660976123
+      edited-GreenCoin-B_9: 1996345569
+      edited-GreenCoin-B_2: -133921808
+      edited-GreenCoin-B_6: -158171338
+      edited-GreenCoin-B_38: -265147631
+      edited-GreenCoin-B_18: 1449207042
+      edited-GreenCoin-B_23: 989180984
+      edited-GreenCoin-B_34: -1398719981
+      edited-GreenCoin-B_28: 52881821
+      edited-GreenCoin-B_57: 931379934
+      edited-GreenCoin-B_8: -1627967079
+      edited-GreenCoin-B_33: 388200225
+      edited-GreenCoin-B_47: -726067611
+      edited-GreenCoin-B_26: 1670717381
+      edited-GreenCoin-B_0: 1915920988
+      edited-GreenCoin-B_15: 1356923826
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

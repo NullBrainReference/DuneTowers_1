@@ -1,0 +1,1 @@
+{"key":6,"title":"Conqueror","titleRu":"Завоеватель","description":"Сomplete the campaign","descriptionRu":"Завершите кампанию","goal":24.0,"progress":0.0,"hasProgress":false,"achieved":false,"achievementType":9,"coinType":0,"rewardValue":100000,"rewardTaken":false}

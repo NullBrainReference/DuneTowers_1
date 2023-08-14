@@ -1,0 +1,1 @@
+{"key":4,"title":"Midas","titleRu":"Мидас","description":"Earn 100000 gold","descriptionRu":"Заработайте 100000 золота","goal":100000.0,"progress":0.0,"hasProgress":true,"achieved":false,"achievementType":3,"coinType":0,"rewardValue":100000,"rewardTaken":false}
