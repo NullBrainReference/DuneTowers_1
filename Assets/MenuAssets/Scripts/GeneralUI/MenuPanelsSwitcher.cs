@@ -18,7 +18,7 @@ public class MenuPanelsSwitcher : MonoBehaviour
 
     public void ShowUnitsPanel()
     {
-        ShowBannerController.Instance.CallBanner();
+        //ShowBannerController.Instance.CallBanner();
 
         SimpleSoundsManager.Instance.PlayClick();
 
@@ -35,7 +35,7 @@ public class MenuPanelsSwitcher : MonoBehaviour
 
     public void ShowLevelsPanel()
     {
-        ShowBannerController.Instance.CallBanner();
+        //ShowBannerController.Instance.CallBanner();
 
         SimpleSoundsManager.Instance.PlayClick();
 

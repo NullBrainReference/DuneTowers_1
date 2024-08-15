@@ -13,6 +13,11 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1;
         GameStats.Instance.gameResult = GameResult.Lose;
         SimpleSoundsManager.Instance.SwitchToMenuMusic();
+
+        GameStats.Instance.isCustom = false;
+        GameStats.Instance.isTowerDefence = false;
+
+        //SceneLoadManager.Instance.LoadMenuScene();
         SceneManager.LoadScene("HorisontalMenu", LoadSceneMode.Single);
     }
 
@@ -22,6 +27,8 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1;
         GameStats.Instance.gameResult = GameResult.Lose;
         SimpleSoundsManager.Instance.SwitchToBattleMusic();
+
+        //SceneLoadManager.Instance.LoadBattleScene();
         SceneManager.LoadScene("mainScene", LoadSceneMode.Single);
     }
 

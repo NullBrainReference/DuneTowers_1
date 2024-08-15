@@ -11,6 +11,13 @@ public class PauseManager : MonoBehaviour
         SimpleSoundsManager.Instance.UnPause();
     }
 
+    public void PauseForJS()
+    {
+        Time.timeScale = 0;
+
+        SimpleSoundsManager.Instance.Pause();
+    }
+
     public static void Pause()
     {
         Time.timeScale = 0;

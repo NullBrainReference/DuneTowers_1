@@ -97,8 +97,6 @@ public class SettingsController : MonoBehaviour
 
         backgroundController.Open();
 
-        animator.Rebind();
-
         PlayShow();
     }
 
@@ -108,11 +106,13 @@ public class SettingsController : MonoBehaviour
         settingsGroup.SetActive(false);
 
         SimpleSoundsManager.Instance.SaveVolumeSettings();
+        animator.Rebind();
     }
 
     public void PlayShow()
     {
-        animator.Play("SettingsShow");
+        animator.Rebind();
+        //animator.Play("SettingsShow");
     }
 
     public void PlayHide()

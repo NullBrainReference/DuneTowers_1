@@ -82,7 +82,7 @@ public class AchievementUI : MonoBehaviour
         if (achievement.RewardTaken == true) 
             return;
 
-        ShowBannerController.Instance.CallBanner();
+        //ShowBannerController.Instance.CallBanner();
 
         achievement.GiveReward();
 

@@ -6,7 +6,7 @@ using UnityEngine;
 public class CellStats
 {
     public MapCellType cellType = MapCellType.None;
-    public int credits = 2000;
+    public int credits = 0;
 
     public HQ_place_status hq = HQ_place_status.None;
     public Unit unit = Unit.None;

@@ -10,6 +10,7 @@ public class GameStats : MonoBehaviour
     [SerializeField] private PlayerProfile profile;
 
     public bool isTowerDefence = false;
+    public bool isCustom = false;
 
     public int minGoldOutcome;
     public int maxGoldOutcome;
@@ -26,6 +27,10 @@ public class GameStats : MonoBehaviour
     public bool isGameOver = false;
 
     public int upgradeScore;
+
+    public int userMapId;
+
+    public GameMode gameMode = GameMode.None;
 
     [SerializeField] private float defenceIncomeMultiplier;
     [SerializeField] private float defenceComponentsMultiplier;
@@ -149,7 +154,12 @@ public class GameStats : MonoBehaviour
 
     public void GetLvlMaxCredits(int lvl)
     {
-        MapStats map = MapStats.Load(lvl);
+        MapStats map;
+
+        if (isCustom)
+            map = MapStats.LoadUserMap(lvl);
+        else
+            map = MapStats.Load(lvl);
 
         int maxCredits = 0;
 
@@ -180,6 +190,8 @@ public class GameStats : MonoBehaviour
     {
         outcomePanelController.InitDefeatValue(playerNo);
         outcomePanelController.PlayShow();
+
+        isCustom = false;
     }
 
     public PlayerBase GetPlayer(int playerNo)

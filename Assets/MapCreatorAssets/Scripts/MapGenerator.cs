@@ -3,6 +3,8 @@ using UnityEngine;
 using TMPro;
 using System;
 using System.IO;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -19,6 +21,8 @@ public class MapGenerator : MonoBehaviour
     [SerializeField] private TMP_InputField levelText;
 
     [SerializeField] private TMP_InputField ccText;
+
+    [SerializeField] private CanvasScaler scaler;
 
     public List<MapCell> mapCells;
 
@@ -38,6 +42,8 @@ public class MapGenerator : MonoBehaviour
     public bool isCCEdit = false;
     public int cc_count = 0;
 
+    public List<SelectableButton> selectableButtons = new List<SelectableButton>();
+
     public int X { get { return x; } }
 
     public static MapGenerator Instance { get; private set; }
@@ -51,10 +57,15 @@ public class MapGenerator : MonoBehaviour
     {
         mapStats = new MapStats();
 
-        xText.text = 16.ToString();
-        yText.text = 10.ToString();
+        //xText.text = 16.ToString();
+        //yText.text = 10.ToString();
 
-        levelText.text = 1.ToString();
+        //levelText.text = 1.ToString();
+
+        LoadUserMap();
+
+        if (mapStats.xSize <= 1)
+            CreateField16x10();
     }
 
     public void CreateField()
@@ -76,6 +87,21 @@ public class MapGenerator : MonoBehaviour
 
         }
 
+        CreateField(x, y);
+    }
+
+    private void CreateField(int x, int y)
+    {
+        ClearCells();
+
+        this.x = x;
+        this.y = y;
+
+        mapStats.xSize = x;
+        mapStats.ySize = y;
+
+        Debug.Log("Scale factor = " + scaler.scaleFactor);
+
         for (int i = 0; i < x; i++)
         {
             for (int j = 0; j < y; j++)
@@ -88,9 +114,27 @@ public class MapGenerator : MonoBehaviour
                 mapCells.Add(mapCell);
 
                 RectTransform rectTransform = newCell.GetComponent<RectTransform>();
-                rectTransform.position = new Vector2(i * 120, j * 120);
+
+                float yScale = scaler.referenceResolution.y / Screen.height;
+
+                rectTransform.localScale = new Vector2(yScale, yScale);
+
+                rectTransform.position = new Vector2(
+                    i * rectTransform.sizeDelta.x, //+ xDifference * i,
+                    j * rectTransform.sizeDelta.y //+ xDifference * j
+                    );
             }
         }
+    }
+
+    public void CreateField16x10()
+    {
+        CreateField(16, 10);
+    }
+
+    public void CreateField20x8()
+    {
+        CreateField(20, 8);
     }
 
     public void RecreateField()
@@ -121,7 +165,14 @@ public class MapGenerator : MonoBehaviour
                 mapCells.Add(mapCell);
 
                 RectTransform rectTransform = newCell.GetComponent<RectTransform>();
-                rectTransform.position = new Vector2(i * 120, j * 120);
+
+                float yScale = scaler.referenceResolution.y / Screen.height;
+                rectTransform.localScale = new Vector2(yScale, yScale);
+
+                rectTransform.position = new Vector2(
+                    i * rectTransform.sizeDelta.x,
+                    j * rectTransform.sizeDelta.y
+                    );
             }
         }
     }
@@ -140,18 +191,26 @@ public class MapGenerator : MonoBehaviour
     {
         hq = HQ_place_status.HQ_0;
         currUnit = Unit.None;
+
+        DropCCEdit();
     }
 
     public void SelectHQ_1()
     {
         hq = HQ_place_status.HQ_1;
         currUnit = Unit.None;
+
+        DropCCEdit();
     }
 
     public void dropHQ()
     {
         hq = HQ_place_status.None;
         currUnit = Unit.None;
+
+        DropCCEdit();
+
+        DropSelects();
     }
 
     public void SelectTanker_0()
@@ -160,6 +219,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Drill;
         playerNo = 0;
+
+        DropCCEdit();
     }
 
     public void SelectTanker_1()
@@ -168,6 +229,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Drill;
         playerNo = 1;
+
+        DropCCEdit();
     }
 
     public void SelectTank_0()
@@ -176,6 +239,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Tank;
         playerNo = 0;
+
+        DropCCEdit();
     }
 
     public void SelectTank_1()
@@ -184,6 +249,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Tank;
         playerNo = 1;
+
+        DropCCEdit();
     }
 
     public void SelectHeli_0()
@@ -192,6 +259,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Helicopter;
         playerNo = 0;
+
+        DropCCEdit();
     }
 
     public void SelectHeli_1()
@@ -200,6 +269,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Helicopter;
         playerNo = 1;
+
+        DropCCEdit();
     }
 
     public void SelectFactory_0()
@@ -208,6 +279,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Fabric;
         playerNo = 0;
+
+        DropCCEdit();
     }
 
     public void SelectFactory_1()
@@ -216,6 +289,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Fabric;
         playerNo = 1;
+
+        DropCCEdit();
     }
 
     public void SelectPlate_0()
@@ -224,6 +299,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Plate;
         playerNo = 0;
+
+        DropCCEdit();
     }
 
     public void SelectPlate_1()
@@ -232,6 +309,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Plate;
         playerNo = 1;
+
+        DropCCEdit();
     }
 
     public void SelectTower_0()
@@ -240,6 +319,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Tower;
         playerNo = 0;
+
+        DropCCEdit();
     }
 
     public void SelectTower_1()
@@ -248,6 +329,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Tower;
         playerNo = 1;
+
+        DropCCEdit();
     }
 
     public void SelectSpawner()
@@ -256,6 +339,8 @@ public class MapGenerator : MonoBehaviour
 
         currUnit = Unit.Spawner;
         playerNo = 1;
+
+        DropCCEdit();
     }
 
     public void SelectCCEdit()
@@ -272,9 +357,53 @@ public class MapGenerator : MonoBehaviour
         }
     }
 
+    public void SelectCCEdit_1000()
+    {
+        isCCEdit = true;
+        cc_count = 0;
+    }
+
+    public void SelectCCEdit_2000()
+    {
+        isCCEdit = true;
+        cc_count = 1000;
+    }
+
+    public void SelectCCEdit_3000()
+    {
+        isCCEdit = true;
+        cc_count = 2000;
+    }
+
+    public void SelectCCEdit_5000()
+    {
+        isCCEdit = true;
+        cc_count = 3000;
+    }
+
+    public void SelectCCEdit_7000()
+    {
+        isCCEdit = true;
+        cc_count = 5000;
+    }
+
+    public void SelectCCEdit_12000()
+    {
+        isCCEdit = true;
+        cc_count = 8000;
+    }
+
     public void DropCCEdit()
     {
         isCCEdit = false;
+    }
+
+    public void DropSelects()
+    {
+        foreach (var item in selectableButtons)
+        {
+            item.DropSelect();
+        }
     }
 
     public void SaveMap()
@@ -285,6 +414,28 @@ public class MapGenerator : MonoBehaviour
 
         mapStats.SaveMap();
     }
+
+    public void SaveUserMap()
+    {
+        mapStats.lvl = GameStats.Instance.userMapId;
+        mapStats.SetStats(mapCells);
+
+        mapStats.SaveUserMap();
+
+        SceneManager.LoadScene("HorisontalMenu", LoadSceneMode.Single);
+    }
+
+    public void LoadUserMap()
+    {
+        string map = PlayerPrefs.GetString("UserMap_" + GameStats.Instance.userMapId);
+
+        if (map == "") return;
+
+        mapStats = JsonUtility.FromJson<MapStats>(map);
+
+        RecreateField();
+    }
+
 #if UNITY_EDITOR
     public void LoadMap()
     {

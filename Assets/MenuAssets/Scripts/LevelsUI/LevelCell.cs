@@ -20,6 +20,9 @@ public class LevelCell : MonoBehaviour
     private bool isLocked;
 
     [SerializeField] private bool isCustom;
+    [SerializeField] private bool isCustomStats;
+
+    [SerializeField] private GameMode gameMode = GameMode.None;
     //[SerializeField] private bool isRandomLevel;
 
     [SerializeField] public LevelStats levelStats;
@@ -46,17 +49,48 @@ public class LevelCell : MonoBehaviour
 
     public void UnlockForced()
     {
-        levelStats = LevelStats.LoadFromFile(levelStats.id);
+        if (!isCustomStats)
+            levelStats = LevelStats.LoadFromFile(levelStats.id);
+
         isLocked = false;
         lockMask.SetActive(false);
     }
 
     public void OnClick()
     {
-        if (this.isLocked) 
+        if (isLocked) 
             return;
 
+        if (isCustomStats)
+        {
+            levelStats = LevelStats.CreateCustomStats(MenuManager.Instance.PlayerStats, levelStats.id);
+
+            GameStats.Instance.userMapId = levelStats.id;
+
+            MapStats mapStats = MapStats.LoadUserMap(levelStats.id);
+
+            GameStats.Instance.isCustom = true;
+
+            if (mapStats == null)
+            {
+                mapStats = new MapStats();
+                mapStats.CreateEmpty16x10(levelStats.id);
+                mapStats.SaveUserMap();
+            }
+            //else if (mapStats.xSize <= 1)
+            //{
+            //    mapStats.CreateEmpty16x10(levelStats.id);
+            //    mapStats.SaveUserMap();
+            //}
+        }
+        else
+        {
+            GameStats.Instance.isCustom = false;
+        }
+
         briefingPanel.Show(levelStats);
+
+        GameStats.Instance.gameMode = gameMode;
 
         SimpleSoundsManager.Instance.PlayClick();
     }

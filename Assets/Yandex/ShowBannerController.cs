@@ -37,8 +37,8 @@ public class ShowBannerController : MonoBehaviour
 
         try
         {
-            Yandex.ShowAdv();
-            PauseManager.Pause();
+            //Yandex.ShowAdv();
+            //PauseManager.Pause();
         }
         catch
         {

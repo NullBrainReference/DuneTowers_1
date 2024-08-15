@@ -17,12 +17,13 @@ public class OutcomeBackgroundController : MonoBehaviour
     public void OnClose()
     {
         background.SetActive(false);
+        animator.Rebind();
     }
 
     private void PlayShow()
     {
         animator.Rebind();
-        animator.Play("BackgroungShow");
+        //animator.Play("BackgroundShow");
     }
 
     public void PlayClose()

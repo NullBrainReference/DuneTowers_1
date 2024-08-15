@@ -72,12 +72,28 @@ public class UnitUI : MonoBehaviour
 
     public void PutInSlot()
     {
-        this.transform.parent = slot;
+        this.transform.SetParent(slot);
 
-        if(slotId != 2)
-            animator.Rebind();
+        //if (slotId != 2)
+        //{
+        //    animator.Rebind();
+        //}
         
         isMoving = false;
+    }
+
+    public void CallScroll()
+    {
+        if (slotId == 2) return;
+
+        if (slotId < 2)
+        {
+            unitsScroll.SetNext();
+        }
+        else
+        {
+            unitsScroll.SetPrev();
+        }
     }
 
     public void PlayRight()

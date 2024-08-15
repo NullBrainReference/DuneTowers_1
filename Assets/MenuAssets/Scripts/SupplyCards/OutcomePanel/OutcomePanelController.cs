@@ -69,6 +69,8 @@ public class OutcomePanelController : MonoBehaviour
     public void OnClose()
     {
         outcomePanel.SetActive(false);
+        animator.Rebind();
+
         //backgroundController.PlayClose();
     }
 
@@ -100,6 +102,8 @@ public class OutcomePanelController : MonoBehaviour
                     break;
             }
         }
+
+        Debug.Log("Outcome gold = " + gold + " power = " + power + " armor = " + armor);
 
         SetValues(armor, power, gold);
     }
@@ -157,8 +161,9 @@ public class OutcomePanelController : MonoBehaviour
             SimpleSoundsManager.Instance.SwitchToMenuMusic();
 
             SceneManager.LoadScene("HorisontalMenu");
+            //SceneLoadManager.Instance.LoadMenuScene();
 
-            ShowBannerController.Instance.CallBanner();
+            //ShowBannerController.Instance.CallBanner();
 
             return;
         }

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using Lean.Localization;
 
 public enum MapCellType { None, Rock, Lake}
 public class MapCell : MonoBehaviour
@@ -12,7 +13,7 @@ public class MapCell : MonoBehaviour
     [SerializeField] private Image image;
 
     [SerializeField] public MapCellType cellType = MapCellType.None;
-    [SerializeField] public int credits = 2000;
+    [SerializeField] public int credits = 0;
 
     [SerializeField] public HQ_place_status hq = HQ_place_status.None;
     [SerializeField] public Unit unit = Unit.None;
@@ -38,6 +39,82 @@ public class MapCell : MonoBehaviour
 
         cellStats.x = x;
         cellStats.y = y;
+
+        TranslateRu();
+    }
+
+    private void TranslateRu()
+    {
+        if (LeanLocalization.GetFirstCurrentLanguage() == "Russian")
+        {
+            switch (text.text)
+            {
+                case "None":
+                    text.text = "Пусто";
+                    break;
+                case "Rock":
+                    text.text = "Горы";
+                    break;
+                case "Lake":
+                    text.text = "Вода";
+                    break;
+                case "HQ_0":
+                    text.text = "База";
+                    break;
+                case "HQ_1":
+                    text.text = "База";
+                    break;
+                case "Tank_0":
+                    text.text = "Танк";
+                    break;
+                case "Tank_1":
+                    text.text = "Танк";
+                    break;
+                case "Drill_0":
+                    text.text = "Бур";
+                    break;
+                case "Drill_1":
+                    text.text = "Бур";
+                    break;
+                case "Plate_0":
+                    text.text = "Плита";
+                    break;
+                case "Plate_1":
+                    text.text = "Плита";
+                    break;
+                case "Fabric_0":
+                    text.text = "Завод";
+                    break;
+                case "Fabric_1":
+                    text.text = "Завод";
+                    break;
+                case "Tower_0":
+                    text.text = "Башня";
+                    break;
+                case "Tower_1":
+                    text.text = "Башня";
+                    break;
+                case "Helicopter_0":
+                    text.text = "Верт.";
+                    break;
+                case "Helicopter_1":
+                    text.text = "Верт.";
+                    break;
+            }
+        }
+        else
+        {
+            switch (text.text)
+            {
+                case "HQ_0":
+                    text.text = "Base";
+                    break;
+                case "HQ_1":
+                    text.text = "Base";
+                    break;
+            }
+        }
+
     }
 
     public void OnClick()
@@ -68,7 +145,7 @@ public class MapCell : MonoBehaviour
                 case MapCellType.Lake:
                     cellType = MapCellType.None;
                     text.text = cellType.ToString();
-                    image.color = new Color(1f, 1f, 1f);
+                    image.color = new Color(0.8f, 0.8f, 0.65f);
                     break;
             }
         }
@@ -78,7 +155,7 @@ public class MapCell : MonoBehaviour
             cellType = MapCellType.None;
             hq = MapGenerator.Instance.hq;
             if (hq == HQ_place_status.HQ_0)
-                image.color = new Color(0f, 1f, 0f);
+                image.color = new Color(0.67f, 0.67f, 0f);
             else if (hq == HQ_place_status.HQ_1)
                 image.color = new Color(1f, 0f, 0f);
             text.text = MapGenerator.Instance.hq.ToString();
@@ -92,7 +169,7 @@ public class MapCell : MonoBehaviour
             unit = MapGenerator.Instance.currUnit;
 
             if (playerNo == 0)
-                image.color = new Color(0f, 1f, 0f);
+                image.color = new Color(0.67f, 0.67f, 0f);
             else if (playerNo == 1)
                 image.color = new Color(1f, 0f, 0f);
             text.text = MapGenerator.Instance.currUnit.ToString() + "_" + playerNo;
@@ -107,6 +184,8 @@ public class MapCell : MonoBehaviour
 
         cellStats.x = x;
         cellStats.y = y;
+
+        TranslateRu();
     }
 
     public void FillCellbyStats()
@@ -135,13 +214,13 @@ public class MapCell : MonoBehaviour
                 break;
             case MapCellType.None:
                 text.text = cellType.ToString();
-                image.color = new Color(1f, 1f, 1f);
+                image.color = new Color(0.8f, 0.8f, 0.65f);
                 break;
         }
 
         if (hq == HQ_place_status.HQ_0)
         {
-            image.color = new Color(0f, 1f, 0f);
+            image.color = new Color(0.67f, 0.67f, 0f);
             text.text = hq.ToString();
             return;
         }
@@ -155,7 +234,7 @@ public class MapCell : MonoBehaviour
         if (unit != Unit.None)
         {
             if (playerNo == 0)
-                image.color = new Color(0f, 1f, 0f);
+                image.color = new Color(0.67f, 0.67f, 0f);
             else if (playerNo == 1)
                 image.color = new Color(1f, 0f, 0f);
             text.text = unit.ToString() + "_" + playerNo;

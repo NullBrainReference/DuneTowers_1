@@ -183,6 +183,13 @@ public class TerrainObjectsPlacer : MonoBehaviour
         else
             cellController.SetChild2(unitController);
 
+        if (unitController.unitStats.Unit == Unit.Tank || unitController.unitStats.Unit == Unit.Helicopter)
+        {
+            UnitMover unitMover = newItem.GetComponent<UnitMover>();
+            unitMover.atFactory = false;
+            unitMover.SetUpNonFactoryMover();
+        }
+
         cellController.Child.transform.localPosition = cellController.transform.position;
     }
 }

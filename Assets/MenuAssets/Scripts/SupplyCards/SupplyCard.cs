@@ -1,4 +1,4 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -53,25 +53,42 @@ public class SupplyCard : MonoBehaviour
 
     public void ShowAdd()
     {
-        Yandex.ShowReward();
+        //TODO Put yandex back
+        //Yandex.ShowReward();
         
-        PauseManager.Pause();
+        //PauseManager.Pause();
     }
 
     public void OnClick()
     {
+        if (!RewardCallbacksManager.Instance.IsFree) return;
+
         //TODO replace with yandex
         SimpleSoundsManager.Instance.PlayOutcome();
-        
-        outcomePanel.PlayShow();
-        PassResults();
+
+        //outcomePanel.PlayShow();
+        //PassResults();
         //========================
 
-        if (timer.IsEnded == false) return; 
+        //if (timer.IsEnded == false) return; 
+
+        RewardCallbacksManager.Instance.SetRewardAction(
+            new Action(() =>
+            {
+                Debug.Log("Entered reward Action");
+                outcomePanel.PlayShow();
+                PassResults();
+
+                timer.SetUp();
+                TurnTimerOn();
+
+                ShowAdd();
+                Debug.Log("Finished reward Action");
+            }));
 
         //TODO replace with yandex
-        timer.SetUp();
-        TurnTimerOn();
+        //timer.SetUp();
+        //TurnTimerOn();
         //========================
 
         ShowAdd();
@@ -107,13 +124,13 @@ public class SupplyCard : MonoBehaviour
         List<int> resultValues = new List<int>();
 
         if (armorText != null)
-            resultValues.Add(Random.Range(minArmor, maxArmor + 1));
+            resultValues.Add(UnityEngine.Random.Range(minArmor, maxArmor + 1));
 
         if (powerText != null)
-            resultValues.Add(Random.Range(minPower, maxPower + 1));
+            resultValues.Add(UnityEngine.Random.Range(minPower, maxPower + 1));
 
         if (goldText != null)
-            resultValues.Add(Random.Range(minGold, maxGold + 1));
+            resultValues.Add(UnityEngine.Random.Range(minGold, maxGold + 1));
 
         return resultValues;
     }

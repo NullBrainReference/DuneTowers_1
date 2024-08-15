@@ -58,8 +58,8 @@ namespace UnityEngine.UIElements
 
         private GameObject selectableGameObject => m_Panel?.selectableGameObject;
 
-        public override int sortOrderPriority => (int)(m_Panel?.sortingPriority ?? 0f);
-        public override int renderOrderPriority => ConvertFloatBitsToInt(m_Panel?.sortingPriority ?? 0f);
+        public override int sortOrderPriority => Mathf.FloorToInt(m_Panel?.sortingPriority ?? 0f);
+        public override int renderOrderPriority => int.MaxValue - (UIElementsRuntimeUtility.s_ResolvedSortingIndexMax - (m_Panel?.resolvedSortingIndex ?? 0));
 
         public override void Raycast(PointerEventData eventData, List<RaycastResult> resultAppendList)
         {
@@ -107,6 +107,8 @@ namespace UnityEngine.UIElements
             delta.y = -delta.y;
 
             var eventSystem = UIElementsRuntimeUtility.activeEventSystem as EventSystem;
+            if (eventSystem == null || eventSystem.currentInputModule == null)
+                return;
             var pointerId = eventSystem.currentInputModule.ConvertUIToolkitPointerId(eventData);
 
             var capturingElement = m_Panel.GetCapturingElement(pointerId);
@@ -139,22 +141,6 @@ namespace UnityEngine.UIElements
         }
 
         public override Camera eventCamera => null;
-
-
-        [StructLayout(LayoutKind.Explicit, Size = sizeof(int))]
-        private struct FloatIntBits
-        {
-            [FieldOffset(0)]
-            public float f;
-            [FieldOffset(0)]
-            public int i;
-        }
-
-        private static int ConvertFloatBitsToInt(float f)
-        {
-            FloatIntBits bits = new FloatIntBits {f = f};
-            return bits.i;
-        }
     }
 #endif
 }

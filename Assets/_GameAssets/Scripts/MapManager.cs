@@ -24,7 +24,12 @@ public class MapManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        MapStats map = MapStats.Load(GameStats.Instance.level.id);
+        MapStats map;
+
+        if (GameStats.Instance.isCustom)
+            map = MapStats.LoadUserMap(GameStats.Instance.level.id);
+        else
+            map = MapStats.Load(GameStats.Instance.level.id);
 
         fieldSize = new Vector2Int(map.xSize, map.ySize);
 

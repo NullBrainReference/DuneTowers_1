@@ -111,6 +111,11 @@ public class UnitMover : MonoBehaviour
 
     #region methods -------------------------------------------------------------------
 
+    public void SetUpNonFactoryMover()
+    {
+        state = States.Stop;
+    }
+
     public void MoveToCell(Vector2Int target, Action action = null)
     {
 

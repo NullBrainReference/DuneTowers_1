@@ -123,6 +123,45 @@ public class LevelStats: PlayerBase
         }
     }
 
+    public static LevelStats CreateCustomStats(PlayerBase player, int lvlId)
+    {
+        LevelStats result = new LevelStats();
+
+        result.minOutcomeCoins = 300;
+        result.maxOutcomeCoins = 900;
+
+        result.minOutcomeUpgrades = 2;
+        result.maxOutcomeUpgrades = 8;
+
+        int maxArmor = 0;
+        int maxGun = 0;
+
+        foreach (var item in player.unitsStats)
+        {
+            if (item.armorLvl > maxArmor)
+                maxArmor = item.armorLvl;
+            if (item.gunLvl > maxGun)
+                maxGun = item.gunLvl;
+        }
+
+        result.id = lvlId;
+
+        result.unitsStats = new List<UnitStats>
+        {
+            new UnitStats(Unit.Tank, maxArmor, maxGun, player.GetUnit(Unit.Tank).speedLvl),
+            new UnitStats(Unit.Helicopter, maxArmor, maxGun, 1),
+            new UnitStats(Unit.Base, maxArmor, 0, 0),
+            new UnitStats(Unit.Fabric, maxArmor, 0, player.GetUnit(Unit.Fabric).speedLvl),
+            new UnitStats(Unit.Drill, maxArmor, 0, player.GetUnit(Unit.Drill).speedLvl),
+            new UnitStats(Unit.Tower, maxArmor, maxGun, player.GetUnit(Unit.Tower).speedLvl),
+            new UnitStats(Unit.Plate, 1, 0, 0),
+        };
+
+        result.CountSimpleStats();
+
+        return result;
+    }
+
     public static LevelStats GetStats(int id)
     {
         string level = PlayerPrefs.GetString("Level" + id);
